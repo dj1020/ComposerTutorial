@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8acf466b2681a1898be466b5dc2d5879",
+    "packages": [
+        {
+            "name": "mike182uk/cart",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mike182uk/cart.git",
+                "reference": "6243f5130971bf410374aeb844429a9fca5c7469"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mike182uk/cart/zipball/6243f5130971bf410374aeb844429a9fca5c7469",
+                "reference": "6243f5130971bf410374aeb844429a9fca5c7469",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0",
+                "mockery/mockery": "~0.0",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cart\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael David Barrett",
+                    "email": "mike182uk@gmail.com"
+                }
+            ],
+            "description": "A flexible and modern shopping cart package",
+            "time": "2017-01-04T21:04:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
