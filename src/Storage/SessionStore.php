@@ -9,5 +9,6 @@ class SessionStore
      */
     public function __construct()
     {
+        echo "Session Store started." . PHP_EOL;
     }
 }

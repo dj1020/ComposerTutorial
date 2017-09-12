@@ -10,5 +10,6 @@ class ArrayStore
      */
     public function __construct()
     {
+        echo "Array Store started." . PHP_EOL;
     }
 }
