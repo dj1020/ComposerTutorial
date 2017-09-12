@@ -6,10 +6,8 @@
 		"phpunit/phpunit": "~5.0"
 	},
 	"autoload": {
-		"files": [
-            "src/Storage/SessionStore.php",
-            "src/Cart.php",
-            "src/CartItem.php"
+        "classmap": [
+            "src/"
         ]
 	}
 }

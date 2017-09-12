@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $id = 'MyCart Example';
 $store = new \MyCart\Storage\SessionStore();
