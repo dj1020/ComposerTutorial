@@ -1,16 +1,38 @@
 {
-	"require": {
-		"mike182uk/cart": "^3.0"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "~5.0"
-	},
-	"autoload": {
-        "psr-4": {
-            "MyCart\\": "src/"
-        },
+    "name": "twkdj/cart",
+    "description": "A flexible and modern shopping cart package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Michael David Barrett",
+        "email": "mike182uk@gmail.com"
+    }],
+    "require":
+    {
+        "mike182uk/cart": "^3.0"
+    },
+    "require-dev":
+    {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload":
+    {
         "files": [
             "src/Helpers.php"
-        ]
-	}
+        ],
+        "classmap": [],
+        "psr-4":
+        {
+            "MyCart\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts":
+    {
+        "test": "phpunit --verbose --colors=always",
+        "test-with-coverage": "phpunit --verbose --colors=always --coverage-clover coverage.clover",
+        "lint": "php-cs-fixer fix --dry-run --verbose --ansi",
+        "fix": "php-cs-fixer fix --ansi"
+    }
 }
