@@ -7,7 +7,9 @@
 	},
 	"autoload": {
 		"files": [
-            "src/Storage/SessionStore.php"
+            "src/Storage/SessionStore.php",
+            "src/Cart.php",
+            "src/CartItem.php"
         ]
 	}
 }
