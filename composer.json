@@ -8,6 +8,9 @@
 	"autoload": {
         "psr-4": {
             "MyCart\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
 	}
 }
