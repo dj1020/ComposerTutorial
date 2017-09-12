@@ -2,7 +2,7 @@
 
 namespace MyCart\Storage;
 
-class SessionStore
+class SessionStore extends \Cart\Storage\SessionStore
 {
     /**
      * SessionStore constructor.

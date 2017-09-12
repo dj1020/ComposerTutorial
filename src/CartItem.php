@@ -2,14 +2,7 @@
 
 namespace MyCart;
 
-class CartItem
+class CartItem extends \Cart\CartItem
 {
 
-    /**
-     * CartItem constructor.
-     * @param array $array
-     */
-    public function __construct($array)
-    {
-    }
 }
