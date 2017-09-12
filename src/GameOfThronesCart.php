@@ -18,4 +18,15 @@ class GameOfThronesCart extends Cart
 
         parent::__construct($id, $store);
     }
+
+    public function total()
+    {
+        $total = parent::total();
+
+        return ($total > 500)
+            ? $total * 0.8
+            : $total;
+    }
+
+
 }
