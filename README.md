@@ -210,7 +210,7 @@ Options:
 
 |  常見限制條件  |        版本範圍(tag)/分支名稱(branch)        |
 |----------------|----------------------------------------------|
-| 3.*            | >= 3.1.0, < 4.0                              |
+| 3.*            | >= 3.0.0, < 4.0                              |
 | 3.1.*          | >= 3.1.0, < 3.2                              |
 | ~3.1           | >= 3.1.0, < 4.0 (最常見)                     |
 | ~3.1.0         | >= 3.1.0, < 3.2 (注意)                       |
@@ -252,7 +252,15 @@ Options:
 
 > 註：若套件沒有新版本當然 `composer update` 就不會更新 lock 檔
 
+## 用 Composer 幫你 autoload 各 class 檔
 
+* 這邊看影片跟著操作一次學比較快： <https://www.youtube.com/watch?v=qxaL_bjGKEw> (從 55:00 左右開始)
+
+### 好處與重點：
+
+* 只要 require 一個 autoload.php 檔，不用再一個個類別檔案 require
+* 有 files, classmap, psr-4/0 等可以選擇
+* 只有 functions 的 php 檔，必須要用 files 的方式放進 composer.json
 
 
 
